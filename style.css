@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script&display=swap');
+body{margin: 0;
+    padding: 0;
+    background: url("https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat fixed center; 
+    background-size: cover;
+}
+
+.container{
+    margin: 0px;
+    border: 2px solid black;
+    height: 55px;
+    background: #708887;
+    mix-blend-mode:overlay;
+    font-family: 'Bruno Ace SC', cursive;
+    color: #acd7e2;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+}
+
+#clock{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    font-size: 5rem;}
+
+#clock div{
+    border: 2px solid blue;
+    height: 14rem;
+    width: 14rem;
+    text-align: center;
+    font-size: 13rem;
+    border-radius: 4rem;
+    /* background: url("https://images.unsplash.com/photo-1481988535861-271139e06469?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1490&q=80") no-repeat fixed center; 
+    background-size: cover; */
+    background: #708887;
+    color: #25bbca;
+}
+
+.time-component{
+    mix-blend-mode:overlay;
+}
+
+#dots{
+   color: #178978;
+}
+
+/* #clock{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.num{
+    --rotation:0;
+    position:absolute;
+    width: 96%;
+    padding: 96%;
+    color:aliceblue;
+    text-align: center;
+    transform: center;
+    transform: rotate(var(--rotation));
+    font-size: 1.5rem;
+
+} */
